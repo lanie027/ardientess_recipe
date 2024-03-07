@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+.recipes {
+    max-width: 50%;
+    margin: 50px auto;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(67, 86, 190, 0.945);
+}
+h2 {
+    color: black;
+    text-align: center;
+}
+
+h3 {
+    color: black;
+}
+
+ul, ol {
+    margin-left: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+img {
+    width: 60%; 
+    height: 40%; 
+    object-fit: cover; 
+    box-shadow: 0 0 10px rgb(0, 0, 1);
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 20%;
+    background-position: center;
+   
+}
+
+.backtohomepage {
+    margin: 0 0 0 450px;
+    text-decoration: none;
+}
+
+.backtohomepage:hover {
+    color: tomato;
+}
